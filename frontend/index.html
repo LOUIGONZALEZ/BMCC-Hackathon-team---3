@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fall Into Calculus — AI Tutor</title>
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Fall Into Calculus</h1>
+      <p>Your AI calculus assistant</p>
+    </header>
+
+    <div id="chat" class="chat"></div>
+
+    <form id="form" class="input-area" autocomplete="off">
+      <input id="prompt" placeholder="e.g. differentiate x^2 sin x" />
+      <button type="submit">Ask</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
